@@ -123,4 +123,10 @@ Para enviar parametros a exec se usa el comando -Dexec.args="param1 param2 param
 ![image](./assets/exec-parametros.png)
 ![image](./assets/codigo-params.png)
 
+-Con nombre y apellido
+![image](./assets/exec-parametros2.png)
+
+-Arreglandolo para que aparezca nombre y apellido
+![image](./assets/exec-parametros3.png)
+![image](./assets/codigo-params2.png)
 
