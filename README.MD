@@ -93,3 +93,34 @@ Promueven buenas prácticas y estándares en el proceso de desarrollo al proporc
 ## Creación del proyecto
 
 ![image](./assets/Foto%201.png)
+
+
+# Compilar y ejecutar
+
+Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn. Compila el código,
+ejecuta las pruebas y empaqueta el código.
+
+El parametro package tiene como objetivo ejecutar el ciclo de vida de maven hasta la fase de empaquetado.
+Parametros que se podrian usar con mvn package:
+-DskipTests : omite la ejecución de las pruebas.
+-Dmaven.test.skip=true : omite la compilación y ejecución de las pruebas.
+-Darguments : permite pasar argumentos adicionales a los plugins que se ejecutan durante el empaquetado.
+-p : activa un perfil específico del proyecto.
+
+
+
+Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".
+Para ejecutar un proyecto de maven desde la linea de comandos se necesita:
+-Configurar el exec-maven-plugin en el pom.xml
+
+![image](./assets/execmavenplugin.png)
+
+-Compilar el proyecto y usar el comando mvn exec:java para ejecutarlo
+![image](./assets/ejecucionArgumentos.png)
+
+-Buscar cómo enviar parámetros al plugin "exec".
+Para enviar parametros a exec se usa el comando -Dexec.args="param1 param2 param3"
+![image](./assets/exec-parametros.png)
+![image](./assets/codigo-params.png)
+
+
