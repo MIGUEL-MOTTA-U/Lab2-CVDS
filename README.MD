@@ -91,22 +91,22 @@ Parametros que se podrian usar con mvn package:
 
 Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".
 Para ejecutar un proyecto de maven desde la linea de comandos se necesita:
--Configurar el exec-maven-plugin en el pom.xml
+### Configurar el exec-maven-plugin en el pom.xml
 
 ![image](./assets/execmavenplugin.png)
 
--Compilar el proyecto y usar el comando mvn exec:java para ejecutarlo
+### Compilar el proyecto y usar el comando mvn exec:java para ejecutarlo
 ![image](./assets/ejecucionArgumentos.png)
 
--Buscar cómo enviar parámetros al plugin "exec".
+### Buscar cómo enviar parámetros al plugin "exec".
 Para enviar parametros a exec se usa el comando -Dexec.args="param1 param2 param3"
 ![image](./assets/exec-parametros.png)
 ![image](./assets/codigo-params.png)
 
--Con nombre y apellido
+### Con nombre y apellido
 ![image](./assets/exec-parametros2.png)
 
--Arreglandolo para que aparezca nombre y apellido
+### Arreglandolo para que aparezca nombre y apellido
 ![image](./assets/exec-parametros3.png)
 ![image](./assets/codigo-params2.png)
 
