@@ -102,8 +102,11 @@ Para ejecutar un proyecto de maven desde la linea de comandos se necesita:
 Para enviar parametros a exec se usa el comando -Dexec.args="param1 param2 param3"
 
 ![image](./assets/codigo-params.png)
+
 Primero sin parametros.
+
 ![image](./assets/codigo-params0.png)
+
 Con nombre.
 ![image](./assets/exec-parametros.png)
 
